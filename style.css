@@ -182,6 +182,7 @@ header p {
   background-color: #cc4c4c;
 }
 
+/* Footer styles */
 footer {
   background-color: #ffffe0; /* lighter yellow */
   padding: 1rem 2rem;
@@ -205,7 +206,7 @@ footer .footer-right {
   text-align: right;
 }
 
-/* Make the form inside footer-right aligned right and inputs inline */
+/* Form styles inside footer-right */
 footer .footer-right form {
   display: flex;
   flex-wrap: wrap;
@@ -259,4 +260,51 @@ footer .footer-right form button:hover {
   footer .footer-right form {
     justify-content: center;
   }
+  /* Mobile-first responsive design */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  #bio {
+    margin: 10px auto;
+    font-size: 0.95rem;
+  }
+
+  #bio img {
+    width: 80px;
+    height: 80px;
+    float: none;
+    display: block;
+    margin: 0 auto 15px auto;
+  }
+
+  #skills, #projects, .about-section, #contact {
+    margin: 20px auto;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .project-card {
+    padding: 10px;
+  }
+
+  .project-card a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  #contact input,
+  #contact textarea,
+  #contact button {
+    width: 100%;
+  }
+}
+
 }
