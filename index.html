@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta settings for responsive layout and character encoding -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Title displayed in browser tab -->
+  <title>My Portfolio</title>
+
+  <!-- Linking the external CSS file -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Importing 'Inter' font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <!-- Main Heading -->
+    <h1>Hey, Welcome in My <span class="highlight">World!</span></h1>
+
+    <!-- Subheading / Introduction -->
+    <p>Web Developer | Student | Designer</p>
+
+    <!-- Short Bio Section -->
+    <section id="bio">
+      <!-- Personal photo -->
+      <img src="images/My Photo.jpg" alt="My Photo" />
+
+      <!-- Short introduction paragraph -->
+      <p>Hello! I'm Ahsan, a web development student passionate about coding, design, and creating responsive web experiences.</p>
+    </section>
+  </header>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <!-- List of known skills -->
+    <ul>
+      <li>HTML & CSS</li>
+      <li>JavaScript (Basic)</li>
+      <li>Responsive Design</li>
+      <li>Flexbox & Grid</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects-section" id="projects" data-aos="fade-up" data-aos-once="true">
+    <h2>My Projects</h2>
+
+    <!-- Grid container for project cards -->
+    <div class="projects-grid">
+      
+      <!-- Project 1 Card -->
+      <div class="project-card">
+        <div class="project-details">
+          <h3>TaskMaster</h3>
+          <p>A sleek React web app that helps users organize daily tasks with deadlines and priority tags.</p>
+          <a href="#" class="button" target="_blank" rel="noopener">View Live</a>
+          <a href="#" class="button" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+
+      <!-- Project 2 Card -->
+      <div class="project-card">
+        <div class="project-details">
+          <h3>Weatherly</h3>
+          <p>A responsive weather dashboard built with JavaScript and OpenWeatherMap API.</p>
+          <a href="#" class="button" target="_blank" rel="noopener">View Live</a>
+          <a href="#" class="button" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+
+      <!-- Project 3 Card -->
+      <div class="project-card">
+        <div class="project-details">
+          <h3>Foodie Blog</h3>
+          <p>A modern blog site where users can browse and submit recipes. Built with HTML, CSS, and PHP.</p>
+          <a href="#" class="button" target="_blank" rel="noopener">View Live</a>
+          <a href="#" class="button" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+
+      <!-- Project 4 Card -->
+      <div class="project-card">
+        <div class="project-details">
+          <h3>Portfolio Website</h3>
+          <p>A personal portfolio showcasing my work. Built using a responsive and mobile-first design.</p>
+          <a href="#" class="button" target="_blank" rel="noopener">View Live</a>
+          <a href="#" class="button" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About Me Section (After Projects) -->
+  <section id="bio">
+    <p>
+      <!-- Main heading -->
+      <strong class="about-heading">About Me!</strong><br />
+      
+      <!-- Description -->
+      Hello again! Thanks for scrolling this far! 🤗 Just a heads up, my portfolio is a little outdated at the moment. I haven’t had time to update it, but I’m keeping it up for now, and I hope it gives you some inspiration!<br /><br />
+      
+      <!-- Personal Interests -->
+      Besides coding, I love spending my free time playing Animal Crossing (feel free to add me!) and diving into other video games. 🤓 I’m also on a mission to read more, so if you have any great book recommendations, please reach out!
+    </p>
+
+    <!-- Circular photo with shadow -->
+    <div class="bio-photo-circle">
+      <img src="images/My Photo.jpg" alt="My Photo" />
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <!-- Wrapper for footer content -->
+    <div class="footer-container">
+
+      <!-- Fun, personal description section -->
+      <div class="footer-description">
+        <h3>Let's Connect! </h3>
+        <p>
+          If you ever want to grab a coffee/bubble tea (virtually) or just want a quick chat — you can find me on social media or simply send me a message here!
+        </p>
+      </div>
+
+      <!-- Contact Form -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+
+        <!-- Simple contact form -->
+        <form>
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+
+        <!-- Alternate contact options -->
+        <p>
+          Or reach out via <a href="mailto:youremail@example.com">Email</a> or <a href="#">LinkedIn</a>
+        </p>
+      </section>
+    </div>
+
+    <!-- Footer signature note -->
+    <p class="footer-note">Crafted with curiosity and a lot of late-night coffee ☕ — thanks for visiting my little corner of the web!</p>
+
+    <!-- Copyright -->
+    <p class="copyright">© 2025 Ahsan. All rights reserved.</p>
+  </footer>
+</body>
+</html>
